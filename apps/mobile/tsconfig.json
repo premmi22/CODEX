@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": ["react", "react-native", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@closetclear/shared": ["../../packages/shared/src"],
+      "@closetclear/shared/*": ["../../packages/shared/src/*"]
+    }
+  },
+  "include": ["src", "App.tsx", "expo-entry.js"],
+  "exclude": ["node_modules"]
+}
