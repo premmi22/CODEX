@@ -1,0 +1,24 @@
+{
+  "name": "closetclear-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/mobile",
+    "apps/web",
+    "apps/api",
+    "packages/shared"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc -b",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4",
+    "eslint": "9.9.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "7.37.1",
+    "typescript": "5.4.5",
+    "vitest": "1.6.0"
+  }
+}

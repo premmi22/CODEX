@@ -1,0 +1,19 @@
+{
+  "name": "closetclear-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "fastify": "4.27.2",
+    "@closetclear/shared": "0.1.0"
+  },
+  "devDependencies": {
+    "tsx": "4.19.0",
+    "typescript": "5.4.5"
+  }
+}
